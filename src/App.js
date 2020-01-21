@@ -5,20 +5,7 @@ import News from "./components/News";
 import Comments from "./components/Comments";
 import BigTest from "./components/BigTest";
 
-const myNews = [
-    {
-        author: 'Anton',
-        text: 'In Saturnday, by Six'
-    },
-    {
-        author: 'Vasia',
-        text: 'I think, that $ have cost 35R'
-    },
-    {
-        author: 'Max',
-        text: '2 years passed and $ also have not cost 35R'
-    },
-]
+
 
 function App() {
   return (
@@ -42,8 +29,8 @@ function App() {
     // </div>
     <div>
         <News/>
-        <Comments className={'red'} data={myNews}/>
-        <BigTest name={'testName'}/>
+        <Comments className={'red'}/>
+        <BigTest data={'123445'}/>
     </div>
   );
 }
